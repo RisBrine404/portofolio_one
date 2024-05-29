@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+h2,
+h3 {
+  color: #00c621;
+}
+ 
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+ 
+nav a:hover {
+  font-weight: bold;
+}
+ 
+.profile header {
+  text-align: left;
+}
+ 
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+ 
+.certificate {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+ 
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+}
+ 
+.profile img {
+  max-width: 200px;
+}
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+ 
+.kontenhead {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #0066eb;
+  text-align: center;
+  color: white;
+}
+ 
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+ 
+nav li {
+  list-style-type: none;
+}
+ 
+nav {
+  background-color: #000dc6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+ 
+main {
+  padding: 20px;
+  display: flex;
+  gap: 1.5rem;
+}
+ 
+#content {
+  flex: 5;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+}
+ 
+aside {
+  flex: 1;
+}
+ 
+header {
+  display: inline;
+}
+ 
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #0066eb;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+footer footercopy {
+  background-color: #000dc6;
+  padding: 5px;
+}
+ 
+.act-btn{
+  background: rgb(0, 204, 51);
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 1px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 40%;
+  text-decoration: none;
+  transition: ease all 0.3s;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.act-btn:hover{
+  background: rgb(7, 4, 196)
+}
+ 
+/* Perangkat dengan lebar layar 1200px dan di bawahnya */
+@media screen and (max-width: 1200px) {
+  main {
+    flex-flow: column nowrap;
+  }
+ 
+  main aside {
+    align-self: center;
+  }
+}
+ 
+/* Perangkat dengan lebar layar 768px dan di bawahnya */
+@media screen and (max-width: 768px) {
+  nav ul {
+    justify-content: center;
+  }
+ 
+  main aside {
+    align-self: stretch;
+  }
+}
