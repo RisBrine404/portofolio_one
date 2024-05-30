@@ -120,11 +120,11 @@ footer footercopy {
   }
 
   main {
-    flex-flow: column nowrap;
+    flex-flow: column flex;
   }
  
   main aside {
-    align-self: center;
+    align-self: unsafe;
   }
   .act-btn{
     background: rgb(0, 204, 51);
