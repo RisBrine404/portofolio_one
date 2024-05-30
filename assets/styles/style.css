@@ -175,7 +175,11 @@ footer footercopy {
   nav ul {
     justify-content: center;
   }
- 
+
+  main {
+    flex-flow: column nowrap;
+  }
+  
   main aside {
     align-self: stretch;
   }
