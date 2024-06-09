@@ -154,6 +154,27 @@ footer footercopy {
   .act-btn:hover{
     background: rgb(7, 4, 196)
   }
+  .act-wrn{
+    background: rgb(0, 204, 51);
+    display: block;
+    width: 80px;
+    height: 62px;
+    line-height: 1px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 40%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+  }
+
+  .act-wrn:hover{
+    background: rgb(7, 4, 196)
+  }
 }
  
 /* Perangkat dengan lebar layar 768px dan di bawahnya */
