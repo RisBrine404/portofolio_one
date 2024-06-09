@@ -88,6 +88,8 @@ aside {
  
 header {
   display: inline;
+  background-color: #0066eb;
+  color: white;
 }
  
 footer {
@@ -119,9 +121,9 @@ footer footercopy {
   .kontenhead {
     font-size: 17px;
     padding: 20px;
-    background-color: #0066eb;
+    
     text-align: center;
-    color: white;
+    
   }
 
   main {
@@ -172,9 +174,9 @@ footer footercopy {
   .kontenhead {
     font-size: 15px;
     padding: 40px;
-    background-color: #0066eb;
+    
     text-align: center;
-    color: white;
+    
   }
 
   nav ul {
