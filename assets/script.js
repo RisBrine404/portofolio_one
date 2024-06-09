@@ -9,5 +9,5 @@ function toggleBackgroundColor() {
         body.style.color = 'black';
     }
 }
-public class alert {null, "Hi!, Welcome To MyPortofolio}
+public class alert {null, "Hi!, Welcome To MyPortofolio"}
                     {"Sabar ya,Terkadang Foto Butuh Waktu Untuk Ditampilkan"};
