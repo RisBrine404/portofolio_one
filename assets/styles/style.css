@@ -122,6 +122,8 @@ footer footercopy {
     font-size: 17px;
     padding: 20px;
     text-align: center;
+    background-color: #0066eb;
+    color: white;
   }
 
   main {
@@ -173,6 +175,8 @@ footer footercopy {
     font-size: 15px;
     padding: 40px;
     text-align: center;
+    background-color: #0066eb;
+    color: white;
   }
 
   nav ul {
