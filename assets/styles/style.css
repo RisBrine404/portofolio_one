@@ -225,7 +225,7 @@ footer footercopy {
     text-decoration: none;
     transition: ease all 0.3s;
     position: fixed;
-    right: 30px;
+    right: 20px;
     bottom: 30px;
   }
   
@@ -246,7 +246,7 @@ footer footercopy {
     text-decoration: none;
     transition: ease all 0.3s;
     position: fixed;
-    right: 30px;
+    right: 20px;
     bottom: 80px;
   }
   
