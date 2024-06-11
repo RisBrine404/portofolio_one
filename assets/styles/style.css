@@ -175,6 +175,28 @@ footer footercopy {
   .act-wrn:hover{
     background: rgb(7, 4, 196)
   }
+
+  .act-hlm{
+    background: rgb(7, 4, 196);
+    display: block;
+    width: 80px;
+    height: 62px;
+    line-height: 1px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 40%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    right: 30px;
+    bottom: 130px;
+  }
+
+  .act-hlm:hover{
+    background: rgb(0, 204, 51)
+  }
 }
  
 /* Perangkat dengan lebar layar 768px dan di bawahnya */
@@ -253,4 +275,27 @@ footer footercopy {
   .act-wrn:hover{
     background: rgb(7, 4, 196)
   }
+
+  .act-hlm{
+    background: rgb(7, 4, 196);
+    display: block;
+    width: 50px;
+    height: 38px;
+    line-height: 1px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 40%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    right: 20px;
+    bottom: 130px;
+  }
+  
+  .act-hlm:hover{
+    background: rgb(0, 204, 51)
+  }
+    }
 }
