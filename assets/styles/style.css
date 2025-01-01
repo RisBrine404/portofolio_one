@@ -169,7 +169,7 @@ footer footercopy {
     transition: ease all 0.3s;
     position: fixed;
     right: 30px;
-    bottom: 80px;
+    bottom: 105px;
   }
 
   .act-wrn:hover{
@@ -191,7 +191,7 @@ footer footercopy {
     transition: ease all 0.3s;
     position: fixed;
     right: 30px;
-    bottom: 130px;
+    bottom: 180px;
   }
 
   .act-hlm:hover{
