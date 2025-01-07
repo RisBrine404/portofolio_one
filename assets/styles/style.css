@@ -106,7 +106,7 @@ footer footercopy {
 }
   
 /* Perangkat dengan lebar layar 1200px dan di bawahnya */
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 19200px) {
   * {
     box-sizing: border-box;
   }
