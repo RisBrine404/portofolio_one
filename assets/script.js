@@ -1,3 +1,4 @@
+// KODE GANTI MODE
 function toggleBackgroundColor() {
     const body = document.body;
     const header = document.querySelector('header');
@@ -24,10 +25,13 @@ function toggleBackgroundColor() {
         footer.style.color = 'white';
     }
           }
+
+// KODE ALERT
       document.addEventListener("DOMContentLoaded", function () {
     alert("Welcome To My Portfolio! Beberapa file seperti foto mungkin masih loading.");
 });
 
+// KODE SCROLL MODEL VIEWER
 // Ambil elemen model-viewer
 const modelViewer = document.getElementById('model');
 
@@ -41,3 +45,25 @@ window.addEventListener('scroll', () => {
     // Update nilai camera-orbit
     modelViewer.setAttribute('camera-orbit', `${clampedOrbitX}deg 70deg`);
 });
+
+// KODE POSITION FIXED TO FOOTER
+const fixedElement = document.getElementById('fixedElement');
+const footer = document.getElementById('footer');
+
+const observer = new IntersectionObserver(
+  ([entry]) => {
+    if (entry.isIntersecting) {
+      fixedElement.style.position = 'absolute';
+      fixedElement.style.bottom = `${footer.offsetHeight}px`;
+    } else {
+      fixedElement.style.position = 'fixed';
+      fixedElement.style.bottom = '20px';
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+  }
+);
+
+observer.observe(footer);
