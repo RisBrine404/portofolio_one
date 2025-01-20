@@ -107,6 +107,17 @@ footer footercopy {
   
 /* Perangkat dengan lebar layar 1200px dan di bawahnya */
 @media screen and (max-width: 19200px) {
+  .model{
+    width: 280px;
+    height: 262px;
+    line-height: 1px;
+    border-radius: 50%;
+    -webkit-border-radius: 40%;
+    transition: ease all 0.3s;
+    position: fixed;
+    left: 1px;
+    bottom: 3px;
+  }
   * {
     box-sizing: border-box;
   }
@@ -201,6 +212,15 @@ footer footercopy {
  
 /* Perangkat dengan lebar layar 768px dan di bawahnya */
 @media screen and (max-width: 768px) {
+  .model{
+    width: 200px;
+    height: 182px;
+    line-height: 1px;
+    transition: ease all 0.3s;
+    position: fixed;
+    left: 1px;
+    bottom: 1px;
+  }
   * {
     padding: 0;
     margin: 0;
