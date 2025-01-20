@@ -47,23 +47,28 @@ window.addEventListener('scroll', () => {
 });
 
 // KODE POSITION FIXED TO FOOTER
-const fixedElement = document.getElementById('fixedElement');
-const footer = document.getElementById('footer');
+    // Mendapatkan elemen yang akan dipantau
+    const fixedElement = document.getElementById('fixedElement');
+    const footer = document.getElementById('footer');
 
-const observer = new IntersectionObserver(
-  ([entry]) => {
-    if (entry.isIntersecting) {
-      fixedElement.style.position = 'absolute';
-      fixedElement.style.bottom = `${footer.offsetHeight}px`;
-    } else {
-      fixedElement.style.position = 'fixed';
-      fixedElement.style.bottom = '20px';
-    }
-  },
-  {
-    root: null,
-    threshold: 0,
-  }
-);
+    // Membuat observer
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          // Jika footer masuk ke viewport, ubah elemen fixed menjadi absolute
+          fixedElement.style.position = 'absolute';
+          fixedElement.style.bottom = `${footer.offsetHeight}px`;
+        } else {
+          // Jika footer keluar dari viewport, kembalikan elemen ke posisi fixed
+          fixedElement.style.position = 'fixed';
+          fixedElement.style.bottom = '20px';
+        }
+      },
+      {
+        root: null, // Menggunakan viewport sebagai area pantauan
+        threshold: 0, // Memantau ketika bagian terkecil footer masuk viewport
+      }
+    );
 
-observer.observe(footer);
+    // Mengamati elemen footer
+    observer.observe(footer);
