@@ -88,6 +88,8 @@ aside {
  
 header {
   display: inline;
+  color: white;
+  background-color: #0066eb;
 }
  
 footer {
