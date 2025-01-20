@@ -17,7 +17,7 @@ function toggleBackgroundColor() {
     } else {
         body.style.backgroundColor = 'white';
         body.style.color = 'black';
-        header.style.backgroundColor = '#0066eb';
+        header.style.backgroundColor = '#0066eb !important';
         header.style.color = 'white';
         nav.style.backgroundColor = '#000dc6';
         nav.style.color = 'white';
