@@ -86,10 +86,10 @@ aside {
   flex: 1;
 }
  
-header {
+.kontenhead {
   display: inline;
-  color: white;
   background-color: #0066eb;
+  color: white;
 }
  
 footer {
@@ -129,7 +129,7 @@ footer footercopy {
     color: white;
   }
 
-  .kontenhead {
+  header {
     font-size: 17px;
     padding: 20px;
     text-align: center;
@@ -234,7 +234,7 @@ footer footercopy {
     color: white;
   }
 
-  .kontenhead {
+  header {
     font-size: 15px;
     padding: 40px;
     text-align: center;
