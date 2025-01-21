@@ -9,11 +9,11 @@ function toggleBackgroundColor() {
         body.style.backgroundColor = 'black';
         body.style.color = 'white'; 
         header.style.backgroundColor = '#d8bfd8';
-        header.style.color = 'white';
+        header.style.color = 'black';
         nav.style.backgroundColor = 'purple';
         nav.style.color = 'white';
         footer.style.backgroundColor = '#d8bfd8';
-        footer.style.color = 'white';
+        footer.style.color = 'black';
     } else {
         body.style.backgroundColor = 'white';
         body.style.color = 'black';
