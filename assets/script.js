@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const clampedAngle = rotationAngle % 360; // Batasi rotasi hingga 360 derajat
 
                 // Perbarui atribut camera-orbit untuk rotasi horizontal
-                modelViewer.setAttribute('camera-orbit', `${clampedAngle}deg 70deg 2.5m`);
+                modelViewer.setAttribute('camera-orbit', `${clampedAngle}deg 70deg`);
             });
         });
 
