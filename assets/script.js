@@ -33,19 +33,19 @@ function toggleBackgroundColor() {
 
 // KODE SCROLL MODEL VIEWER
 document.addEventListener('DOMContentLoaded', () => {
-    // Ambil elemen model-viewer
-    const modelViewer = document.getElementById('model');
+            // Ambil elemen model-viewer
+            const modelViewer = document.getElementById('model');
 
-    // Tambahkan event listener untuk scroll
-    window.addEventListener('scroll', () => {
-        const scrollY = window.scrollY; // Posisi scroll
-        const rotationAngle = scrollY * 0.1; // Putar karakter 0.1 derajat per piksel scroll
-        const clampedAngle = rotationAngle % 360; // Batasi rotasi hingga 360 derajat
+            // Tambahkan event listener untuk scroll
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY; // Posisi scroll
+                const rotationAngle = scrollY * 0.1; // Putar karakter 0.1 derajat per piksel scroll
+                const clampedAngle = rotationAngle % 360; // Batasi rotasi hingga 360 derajat
 
-        // Perbarui atribut camera-orbit untuk rotasi horizontal
-        modelViewer.setAttribute('camera-orbit', `${clampedAngle}deg 70deg`);
-    });
-});
+                // Perbarui atribut camera-orbit untuk rotasi horizontal
+                modelViewer.setAttribute('camera-orbit', `${clampedAngle}deg 70deg 2.5m`);
+            });
+        });
 
 
 // KODE POSITION FIXED TO FOOTER
