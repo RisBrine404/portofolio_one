@@ -8,7 +8,7 @@ function toggleBackgroundColor() {
     if (body.style.backgroundColor === 'white') {
         body.style.backgroundColor = 'black';
         body.style.color = 'white'; 
-        header.style.backgroundColor = '#d8bfd8';
+        header.style.backgroundColor = '#da00cf';
         header.style.color = 'black';
         nav.style.backgroundColor = 'purple';
         nav.style.color = 'white';
