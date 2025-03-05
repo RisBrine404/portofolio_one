@@ -338,3 +338,6 @@ p, h1, img, h2, h3, h4, h5, h6, a, li, figcaption, th, td {
   animation-timeline: view();
   animation-range: 0% 20%;
 }
+.dasbor {
+            z-index: 1000;
+        }
