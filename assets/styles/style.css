@@ -321,7 +321,7 @@ footer footercopy {
 }
 
 /* Animasi */
-@keyframes teksbos {
+/* @keyframes teksbos {
   0% {
     transform: scale(0.8);
     opacity: 0;
@@ -333,11 +333,11 @@ footer footercopy {
 }
 
 /* Terapkan animasi ke semua teks */
-p, h1, img, h2, h3, h4, h5, h6, a, li, figcaption, th, td {
+/* p, h1, img, h2, h3, h4, h5, h6, a, li, figcaption, th, td {
   animation: teksbos 0.8s ease-in-out both;
   animation-timeline: view();
   animation-range: 0% 20%;
 }
 .dasbor {
             z-index: 1000;
-        }
+        } */
